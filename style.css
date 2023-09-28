@@ -1,0 +1,100 @@
+.rows,
+.boxModelRows {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  height: 150px;
+}
+.gridElement {
+  width: 100px;
+  height: 100px;
+  border: cadetblue solid 2px;
+}
+.boxModel {
+  background-color: grey;
+  width: 500px;
+}
+.boxElement,
+.positionBox {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+}
+#borderA {
+  border: 0;
+}
+#borderB {
+  border: black solid 5px;
+}
+#borderC {
+  border: black solid 10px;
+}
+#marginA {
+  margin: 0;
+}
+#marginB {
+  margin: 5px;
+}
+#marginC {
+  margin: 10px;
+}
+#paddingA {
+  padding: 0;
+}
+#paddingB {
+  padding: 5px;
+}
+#paddingC {
+  padding: 10px;
+}
+.boxModelRows {
+  border: 2px solid cadetblue;
+}
+#f1 {
+  font-size: 20px;
+}
+#f2 {
+  font-size: 6mm;
+}
+#f3 {
+  font-size: 1.5em;
+}
+#f4 {
+  font-size: 0.7cm;
+}
+#f5 {
+  font-size: 2rem;
+}
+#f6 {
+  font-size: 3vw;
+}
+#p1 {
+  position: relative;
+  left: 50px;
+}
+#p2 {
+  position: absolute;
+  left: 200px;
+  z-index: 1;
+  border: black solid 1px;
+  text-align: right;
+}
+#p3 {
+  position: absolute;
+  left: 140px;
+  z-index: 2;
+  border: cadetblue solid 1px;
+
+}
+
+#p4 {
+  position: fixed;
+  bottom: 200px;
+  right: 0;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  background-color: cadetblue;
+}
