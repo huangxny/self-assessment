@@ -84,7 +84,6 @@
   left: 140px;
   z-index: 2;
   border: cadetblue solid 1px;
-
 }
 
 #p4 {
@@ -92,9 +91,15 @@
   bottom: 200px;
   right: 0;
 }
-footer{
+footer {
   position: fixed;
   bottom: 0;
   z-index: 3;
+  background-color: cadetblue;
+}
+.navbar {
+  position: fixed;
+  z-index: 3;
+  top: 0;
   background-color: cadetblue;
 }
